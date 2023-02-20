@@ -1,0 +1,47 @@
+
+
+
+
+.bg-admin{
+
+    .admin{
+        .admin-nav-bar{
+            height:100vh;
+            display: flex;
+            .nav-bar-content{
+                width: 100%;
+
+                
+            }
+        }
+    }
+    
+
+    .sidebar{
+        height: 100%;
+        width: 13%;
+        position: relative;
+        .list-menu{
+          //  width: 20%;
+            // background: $primary-color;
+            
+            ul{
+                li{
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px 10px;
+                    cursor: pointer;
+                    transition: all .5s;
+                    span{
+                        margin-left: 10px;
+                    }
+                    &:hover{
+                        background: rgba(#fff,0.3);
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
