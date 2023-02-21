@@ -1,0 +1,62 @@
+table{
+    width: 100%;
+    // text-align: center;
+    background: white;
+    border-collapse: collapse;
+    cursor: pointer;
+
+    th{
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 0;
+        min-width: 30px;
+        text-align: left;
+    }
+    td{
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    th, td {
+        padding: 15px;
+        border-bottom: 1px solid #DDD;
+    }
+   
+    tr:not(:first-child){
+        
+        transition: all .3s;
+        &:hover{
+            background-color: #D6EEEE;
+        }
+    }
+}
+
+.actions{
+    span{
+        font-size: 25px;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+    .update{
+        margin-right: 5px;
+    }
+}
+
+.create{
+
+    button{
+        color: white;
+        background: #34c38f;
+        font-size: 18px;
+        padding: 13px 25px;
+        border-radius: 30px;
+    }
+}
+.search{
+    input{
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 200px;
+        padding: 12px;
+    }
+}
